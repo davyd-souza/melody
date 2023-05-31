@@ -2,7 +2,7 @@
 import { ReactNode } from 'react'
 
 // LIB
-import StyledComponentsRegistry from '@/lib/styled-registry'
+import StyledComponentsRegistry from '@/lib/styledRegistry'
 // ASSET
 import { Inter } from 'next/font/google'
 

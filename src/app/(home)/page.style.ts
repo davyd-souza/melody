@@ -13,6 +13,7 @@ export const HomeRoot = styled.main`
 `
 export const Title = styled.h2`
   font-size: 1.125rem;
+  font-weight: 700;
 `
 
 export const CategoryRoot = styled.div`

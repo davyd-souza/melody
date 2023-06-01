@@ -2,7 +2,7 @@
 import { ReactNode } from 'react'
 
 // COMPONENT
-import { Navigation } from './components/Navigation'
+import { Navigation } from '@/components/Navigation'
 
 // LIB
 import StyledComponentsRegistry from '@/lib/styledRegistry'

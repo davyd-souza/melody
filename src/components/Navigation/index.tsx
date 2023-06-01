@@ -1,5 +1,5 @@
 // COMPONENT
-import { Navlink } from './components/Navlink'
+import { Navlink } from './components/NavLink'
 
 // STYLE
 import { Navbar, NavbarItem, NavbarList } from './styles'

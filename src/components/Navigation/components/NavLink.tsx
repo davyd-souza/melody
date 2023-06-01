@@ -6,7 +6,7 @@ import { IconContext } from '@phosphor-icons/react'
 import { usePathname } from 'next/navigation'
 
 // STYLE
-import { NavLinkStyled } from './style'
+import { NavLinkStyled } from './NavLink.styles'
 
 // TYPE
 type NavlinkProps = {

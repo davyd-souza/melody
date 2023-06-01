@@ -18,13 +18,14 @@ export const Viewport = styled.div`
 `
 
 export const Logo = styled.h1`
+  margin-inline: auto;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+
   text-transform: uppercase;
   font-size: 1.8rem;
   font-weight: 700;
   color: #00b4ff;
-
-  margin-inline: auto;
-  padding-inline: 1rem;
 
   & > span {
     color: #78b22b;

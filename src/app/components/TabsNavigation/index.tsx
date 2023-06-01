@@ -5,6 +5,7 @@ import { ComponentProps, ReactNode } from 'react'
 
 // COMPONENT
 import * as Tabs from '@radix-ui/react-tabs'
+import { MusicItem } from '@/components/MusicItem'
 
 // STYLE
 import {
@@ -13,7 +14,6 @@ import {
   TabsListStyled,
   TabsRootStyled,
 } from './styles'
-import { MusicItem } from '../MusicItem'
 
 // TYPE
 type TabsRootProps = ComponentProps<typeof Tabs.Root> & {

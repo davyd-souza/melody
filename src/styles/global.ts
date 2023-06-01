@@ -69,6 +69,35 @@ const GlobalStyles = createGlobalStyle`
   h6 {
     overflow-wrap: break-word;
   }
+
+  /* GENERAL STYLES */
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 100vw;
+    margin-block: 0.5em;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #61626b;
+    border-radius: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a0a1a8;
+  }
+
+  @supports (scrollbar-color: red blue) {
+    * {
+      scrollbar-color: #61626b transparent;
+      scrollbar-width: thin;
+    }
+  }
 `
 
 export default GlobalStyles

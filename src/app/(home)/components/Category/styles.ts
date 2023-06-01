@@ -4,7 +4,7 @@
 import styled from 'styled-components'
 import Image from 'next/image'
 
-export const Title = styled.h2`
+export const Title = styled.h3`
   font-size: 1.125rem;
   font-weight: 700;
 `

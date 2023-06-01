@@ -7,9 +7,11 @@ import Link from 'next/link'
 export const MusicItemContainer = styled(Link)`
   display: flex;
   align-items: center;
-
-  background-color: #2f2f32;
   gap: 0.5rem;
+
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #2f2f32;
 
   text-decoration: none;
   color: #fff;

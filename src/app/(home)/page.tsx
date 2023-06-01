@@ -4,7 +4,7 @@ import {
   TabsItem,
   TabsList,
   TabsRoot,
-} from '../components/TabsNavigation'
+} from '@/components/TabsNavigation'
 import { Category } from './components/Category'
 
 // STYLE

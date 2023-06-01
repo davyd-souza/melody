@@ -4,7 +4,7 @@ import {
   TabsItem,
   TabsList,
   TabsRoot,
-} from '../components/TabsNavigation'
+} from '@/components/TabsNavigation'
 
 // STYLE
 import { LibraryRoot, Title } from './page.style'

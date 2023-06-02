@@ -41,6 +41,6 @@ export const SwitchThumb = styled(Switch.Thumb)`
   will-change: 'transform';
 
   &[data-state='checked'] {
-    transform: translateX(18px);
+    transform: translateX(19px);
   }
 `

@@ -12,6 +12,10 @@ export const Title = styled.h3`
 export const CategoryContainer = styled.section`
   display: grid;
   gap: 0.5rem;
+
+  &:last-of-type {
+    margin-block-end: 5rem;
+  }
 `
 
 export const Slide = styled.article`

@@ -7,6 +7,8 @@ export const Viewport = styled.div`
   width: 430px;
   height: 900px;
 
+  position: relative;
+
   display: grid;
   grid-template-rows: min-content 1fr min-content;
   gap: 1rem;

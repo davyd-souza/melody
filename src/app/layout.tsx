@@ -3,6 +3,7 @@ import { ReactNode } from 'react'
 
 // COMPONENT
 import { Navigation } from '@/components/Navigation'
+import { Player } from '@/components/Player'
 
 // LIB
 import StyledComponentsRegistry from '@/lib/styledRegistry'
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
             {children}
 
+            <Player />
             <Navigation />
           </Viewport>
 
